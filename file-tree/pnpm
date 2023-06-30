@@ -1,0 +1,234 @@
+.
+├── .bin
+│   └── prettier
+├── .pnpm
+│   ├── denque@1.5.1
+│   │   └── node_modules
+│   │       └── denque
+│   │           ├── CHANGELOG.md
+│   │           ├── index.d.ts
+│   │           ├── index.js
+│   │           ├── LICENSE
+│   │           ├── package.json
+│   │           └── README.md
+│   ├── node_modules
+│   │   ├── denque
+│   │   │   ├── CHANGELOG.md
+│   │   │   ├── index.d.ts
+│   │   │   ├── index.js
+│   │   │   ├── LICENSE
+│   │   │   ├── package.json
+│   │   │   └── README.md
+│   │   ├── redis-commands
+│   │   │   ├── tools
+│   │   │   │   └── build.js
+│   │   │   ├── changelog.md
+│   │   │   ├── commands.json
+│   │   │   ├── index.js
+│   │   │   ├── LICENSE
+│   │   │   ├── package.json
+│   │   │   └── README.md
+│   │   ├── redis-errors
+│   │   │   ├── lib
+│   │   │   │   ├── modern.js
+│   │   │   │   └── old.js
+│   │   │   ├── .npmignore
+│   │   │   ├── index.js
+│   │   │   ├── LICENSE
+│   │   │   ├── package.json
+│   │   │   └── README.md
+│   │   └── redis-parser
+│   │       ├── lib
+│   │       │   └── parser.js
+│   │       ├── .npmignore
+│   │       ├── changelog.md
+│   │       ├── index.js
+│   │       ├── LICENSE
+│   │       ├── package.json
+│   │       └── README.md
+│   ├── prettier@1.19.1
+│   │   └── node_modules
+│   │       └── prettier
+│   │           ├── node_modules
+│   │           │   └── .bin
+│   │           │       └── prettier
+│   │           ├── bin-prettier.js
+│   │           ├── doc.js
+│   │           ├── index.js
+│   │           ├── LICENSE
+│   │           ├── package.json
+│   │           ├── parser-angular.js
+│   │           ├── parser-babylon.js
+│   │           ├── parser-flow.js
+│   │           ├── parser-glimmer.js
+│   │           ├── parser-graphql.js
+│   │           ├── parser-html.js
+│   │           ├── parser-markdown.js
+│   │           ├── parser-postcss.js
+│   │           ├── parser-typescript.js
+│   │           ├── parser-yaml.js
+│   │           ├── README.md
+│   │           ├── standalone.js
+│   │           └── third-party.js
+│   ├── redis-commands@1.7.0
+│   │   └── node_modules
+│   │       └── redis-commands
+│   │           ├── tools
+│   │           │   └── build.js
+│   │           ├── changelog.md
+│   │           ├── commands.json
+│   │           ├── index.js
+│   │           ├── LICENSE
+│   │           ├── package.json
+│   │           └── README.md
+│   ├── redis-errors@1.2.0
+│   │   └── node_modules
+│   │       └── redis-errors
+│   │           ├── lib
+│   │           │   ├── modern.js
+│   │           │   └── old.js
+│   │           ├── .npmignore
+│   │           ├── index.js
+│   │           ├── LICENSE
+│   │           ├── package.json
+│   │           └── README.md
+│   ├── redis-parser@3.0.0
+│   │   └── node_modules
+│   │       ├── redis-errors
+│   │       │   ├── lib
+│   │       │   │   ├── modern.js
+│   │       │   │   └── old.js
+│   │       │   ├── .npmignore
+│   │       │   ├── index.js
+│   │       │   ├── LICENSE
+│   │       │   ├── package.json
+│   │       │   └── README.md
+│   │       └── redis-parser
+│   │           ├── lib
+│   │           │   └── parser.js
+│   │           ├── .npmignore
+│   │           ├── changelog.md
+│   │           ├── index.js
+│   │           ├── LICENSE
+│   │           ├── package.json
+│   │           └── README.md
+│   ├── redis@3.0.0
+│   │   └── node_modules
+│   │       ├── denque
+│   │       │   ├── CHANGELOG.md
+│   │       │   ├── index.d.ts
+│   │       │   ├── index.js
+│   │       │   ├── LICENSE
+│   │       │   ├── package.json
+│   │       │   └── README.md
+│   │       ├── prettier
+│   │       │   ├── node_modules
+│   │       │   │   └── .bin
+│   │       │   │       └── prettier
+│   │       │   ├── bin-prettier.js
+│   │       │   ├── doc.js
+│   │       │   ├── index.js
+│   │       │   ├── LICENSE
+│   │       │   ├── package.json
+│   │       │   ├── parser-angular.js
+│   │       │   ├── parser-babylon.js
+│   │       │   ├── parser-flow.js
+│   │       │   ├── parser-glimmer.js
+│   │       │   ├── parser-graphql.js
+│   │       │   ├── parser-html.js
+│   │       │   ├── parser-markdown.js
+│   │       │   ├── parser-postcss.js
+│   │       │   ├── parser-typescript.js
+│   │       │   ├── parser-yaml.js
+│   │       │   ├── README.md
+│   │       │   ├── standalone.js
+│   │       │   └── third-party.js
+│   │       ├── redis
+│   │       │   ├── lib
+│   │       │   │   ├── command.js
+│   │       │   │   ├── commands.js
+│   │       │   │   ├── createClient.js
+│   │       │   │   ├── customErrors.js
+│   │       │   │   ├── debug.js
+│   │       │   │   ├── extendedApi.js
+│   │       │   │   ├── individualCommands.js
+│   │       │   │   ├── multi.js
+│   │       │   │   └── utils.js
+│   │       │   ├── node_modules
+│   │       │   │   └── .bin
+│   │       │   │       └── prettier
+│   │       │   ├── CHANGELOG.md
+│   │       │   ├── index.js
+│   │       │   ├── LICENSE
+│   │       │   ├── package.json
+│   │       │   └── README.md
+│   │       ├── redis-commands
+│   │       │   ├── tools
+│   │       │   │   └── build.js
+│   │       │   ├── changelog.md
+│   │       │   ├── commands.json
+│   │       │   ├── index.js
+│   │       │   ├── LICENSE
+│   │       │   ├── package.json
+│   │       │   └── README.md
+│   │       ├── redis-errors
+│   │       │   ├── lib
+│   │       │   │   ├── modern.js
+│   │       │   │   └── old.js
+│   │       │   ├── .npmignore
+│   │       │   ├── index.js
+│   │       │   ├── LICENSE
+│   │       │   ├── package.json
+│   │       │   └── README.md
+│   │       └── redis-parser
+│   │           ├── lib
+│   │           │   └── parser.js
+│   │           ├── .npmignore
+│   │           ├── changelog.md
+│   │           ├── index.js
+│   │           ├── LICENSE
+│   │           ├── package.json
+│   │           └── README.md
+│   └── lock.yaml
+├── prettier
+│   ├── node_modules
+│   │   └── .bin
+│   │       └── prettier
+│   ├── bin-prettier.js
+│   ├── doc.js
+│   ├── index.js
+│   ├── LICENSE
+│   ├── package.json
+│   ├── parser-angular.js
+│   ├── parser-babylon.js
+│   ├── parser-flow.js
+│   ├── parser-glimmer.js
+│   ├── parser-graphql.js
+│   ├── parser-html.js
+│   ├── parser-markdown.js
+│   ├── parser-postcss.js
+│   ├── parser-typescript.js
+│   ├── parser-yaml.js
+│   ├── README.md
+│   ├── standalone.js
+│   └── third-party.js
+├── redis
+│   ├── lib
+│   │   ├── command.js
+│   │   ├── commands.js
+│   │   ├── createClient.js
+│   │   ├── customErrors.js
+│   │   ├── debug.js
+│   │   ├── extendedApi.js
+│   │   ├── individualCommands.js
+│   │   ├── multi.js
+│   │   └── utils.js
+│   ├── node_modules
+│   │   └── .bin
+│   │       └── prettier
+│   ├── CHANGELOG.md
+│   ├── index.js
+│   ├── LICENSE
+│   ├── package.json
+│   └── README.md
+└── .modules.yaml
